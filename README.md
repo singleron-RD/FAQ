@@ -2,10 +2,10 @@
 
 - C2较C3算法比较，C3会增加一定比例的细胞数量，增加的细胞数与C2相比差距较大，增加的细胞是什么细胞？C2与C3算法该如何选择？
 
-增加的细胞理论上为低表达的细胞，通常情况下大多数为免疫细胞，可以通过细胞类型注释查看。旧的项目建议沿用之前的算法，新的项目才有C3算法。
-- C3算法与10X 算法分析方法上是否一致？
+https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/algorithms/overview#cell_calling
 
-C3算法与10X cellranger的cell-calling方法是一致的。
+增加的细胞理论上为低表达的细胞，通常情况下大多数为免疫细胞，可以通过细胞类型注释查看。异质性高的样本建议使用C3（EmptyDrops_CR）算法，例如肿瘤样本。
+
 - C3算法是否依赖barcode UMI rank曲线？	
 
 C3算法不依赖于曲线。
