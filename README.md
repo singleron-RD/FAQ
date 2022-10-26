@@ -40,6 +40,7 @@ celescope版本 >= 1.12.0版本:
 
 
 - 下游分析时如何质控细胞质量进行细胞筛选。
-线粒体过滤阈值？
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6072887/
 
 - 生信分析其他注意事项和分析经验介绍（举例介绍）
